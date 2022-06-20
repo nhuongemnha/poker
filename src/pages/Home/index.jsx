@@ -13,7 +13,7 @@ const schema = yup.object().shape({
     .matches(/^[0-9]+$/g, "phone must be a number"), // Buổi 12: 1 tiếng 26 phút
 });
 
-let timer = null;
+// let timer = null;
 
 const Home = () => {
   // useState : tạo State

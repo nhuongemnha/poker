@@ -29,6 +29,9 @@ const reducer = (state = initialState, { type, payload }) => {
     case "ADD_PlAYER":
       state.playerList = [...state.playerList, payload];
       return { ...state };
+    case "SET_PLAYER":
+      state.playerList = payload;
+      return {...state}
     default:
       return state;
   }

@@ -15,9 +15,6 @@ const MainComponent = () => {
       {players.map((item, index) => {
         return <Player key={item.username} player={item} index={index + 1} />;
       })}
-
-   
-
       <img
         alt="main"
         style={{
