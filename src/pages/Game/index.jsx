@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState, memo, useCallback } from "react";
+import React, { Fragment, useEffect, memo, useCallback } from "react";
 import "./index.css";
 import Controls from "../../components/Control";
 import Main from "../../components/Main";
